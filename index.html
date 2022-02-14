@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="language" content="en">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: normal;
+        }
+        .container{
+            width: 1200px;
+            padding: 15px;
+        }
+        .wrapper{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            background: url(Rectangle13.jpg);
+        }
+        .hero__page{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            grid-gap: 50px;
+            margin-top: 50px;
+        }
+        .hero__title{
+            width: 100%;
+            margin-top: 100px;
+        }
+        .hero__title h1{
+        }
+        .content{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-gap: 70px;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .block{
+            width: 341px;
+            height: 200px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .block__title{
+            height: 50%;
+            padding: 35px;
+        }
+        .block__desc{
+            height: 50%;
+            background-color: #0088D4;
+            padding: 35px;
+        }
+        .block__desc a{
+            color: white;
+        }
+        a{ 
+            text-decoration: none;
+        }
+        ul{
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        @media(max-width: 900px){
+            .wrapper{
+                height: 100%;
+            }
+            .hero__title{
+                margin-top: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="hero__page">
+                <div class="hero__title">
+                    <h1 align="center">ПРОВЕРЬТЕ СВОИ ЗНАНИЯ ПО РУССКОМУ ЯЗЫКУ</h1>
+                </div>
+                <div class="content">
+                    <div class="block">
+                        <div class="block__title">
+                            <ul>Л. Н. Толстой. Война и мир</ul>
+                        </div>
+                        <div class="block__desc">
+                            <a href="first.html">Перейти к тексту</a>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="block__title">
+                            <ul>М. Ю. Лермонтов. Герой нашего времени</ul>
+                        </div>
+                        <div class="block__desc">
+                            <a href="second.html">Перейти к тексту</a>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="block__title">
+                            <ul>С. Есенин. У белой воды</ul>
+                        </div>
+                        <div class="block__desc">
+                            <a href="third.html">Перейти к тексту</a>
+                        </div>
+                    </div>
+                    <!-- <div class="block">
+                        <div class="block__title">
+                            <ul>Л. Н. Толстой. Война и мир</ul>
+                        </div>
+                        <div class="block__desc">
+                            <a href="first.html">Перейти к тексту</a>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="block__title">
+                            <ul>М. Ю. Лермонтов. Герой нашего времени</ul>
+                        </div>
+                        <div class="block__desc">
+                            <a href="second.html">Перейти к тексту</a>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="block__title">
+                            <ul>С. Есенин. У белой воды</ul>
+                        </div>
+                        <div class="block__desc">
+                            <a href="third.html">Перейти к тексту</a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
